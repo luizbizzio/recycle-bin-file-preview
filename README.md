@@ -5,17 +5,14 @@ in the Recycle Bin, without restoring them.
 
 ![Before and after: native Recycle Bin file preview](assets/recycle-bin-file-preview-comparison.png)
 
-*Before: the default Recycle Bin view. After: the same file can be previewed
-with Recycle Bin File Preview enabled.*
 
 ## Features
 
-- Preview supported files in the Recycle Bin without restoring them.
-- Uses the built-in File Explorer Preview Pane, not a separate window.
-- Uses the preview handlers and file associations already installed on your PC.
-- Automatically tries normal file associations when the Recycle Bin does not provide them.
-- Does not modify, restore, or delete your files.
-- No setup needed after installation. Debug logging is optional and off by default.
+- Preview deleted files directly in File Explorer's built-in Preview Pane (**Alt + P**), without restoring them.
+- Works with file types supported by the preview handlers already installed on your PC.
+- Automatically falls back to normal file associations when the Recycle Bin does not provide the needed association.
+- Does not restore, modify, or delete your files.
+- Works without extra configuration. Optional debug logging is off by default.
 
 ## Installation
 
