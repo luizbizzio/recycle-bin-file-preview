@@ -17,12 +17,6 @@ with Recycle Bin File Preview enabled.*
 - Does not modify, restore, or delete your files.
 - No setup needed after installation. Debug logging is optional and off by default.
 
-## How to use
-
-1. Open the Recycle Bin in File Explorer.
-2. Press **Alt + P** to show the Preview Pane.
-3. Select a file to view its preview.
-
 ## Installation
 
 1. Install [Windhawk](https://windhawk.net/) if you do not already have it.
