@@ -10,11 +10,12 @@ with Recycle Bin File Preview enabled.*
 
 ## Features
 
-- Uses the normal File Explorer Preview Pane, not a separate viewer.
-- Works with the file types and preview handlers already supported by Windows.
-- Uses normal file associations when Recycle Bin associations fail.
-- Does not restore, copy, change, or delete files.
-- Requires no setup. Debug logging is the only optional setting, off by default.
+- Preview supported files in the Recycle Bin without restoring them.
+- Uses the built-in File Explorer Preview Pane, not a separate window.
+- Uses the preview handlers and file associations already installed on your PC.
+- Automatically tries normal file associations when the Recycle Bin does not provide them.
+- Does not modify, restore, or delete your files.
+- No setup needed after installation. Debug logging is optional and off by default.
 
 ## How to use
 
@@ -24,30 +25,32 @@ with Recycle Bin File Preview enabled.*
 
 ## Installation
 
-This mod is being prepared for the official [Windhawk](https://windhawk.net/) catalog.
-Until it is available there, install it as a local mod:
+1. Install [Windhawk](https://windhawk.net/) if you do not already have it.
+2. Open the [Recycle Bin File Preview page](https://windhawk.net/mods/recycle-bin-file-preview), or search for **Recycle Bin File Preview** in Windhawk.
+3. Click **Install**.
 
-1. Open Windhawk and create a new mod.
-2. Copy the contents of `recycle-bin-file-preview.wh.cpp` into the editor.
-3. Compile and enable the mod.
-4. Open the Recycle Bin and press **Alt + P**.
+## How to use
 
-Disable any earlier test mod named `recycle-bin-preview` to avoid running
-two similar hooks at the same time.
+1. Open the **Recycle Bin** in File Explorer.
+2. Press **Alt + P** to show the Preview Pane.
+3. Select a deleted file to preview it.
 
-## Compatibility and limits
+There are no extra steps or settings required.
 
-- Preview depends on the handlers installed on your PC. A format that has
-  no preview in a normal Explorer folder may also have no preview in Recycle Bin.
-- The mod does not add codecs or preview handlers.
-- The mod does not open deleted folders for navigation.
-- Windows updates can change how file previews work.
-- Version 1.0.0 still needs final tests on different Windows builds.
+## Compatibility and limitations
+
+- A file can be previewed only if Windows has a compatible preview handler for that file type. Some formats may show **No preview available**.
+- This mod does not install codecs or new preview handlers.
+- Deleted folders cannot be opened or browsed with this mod.
+- Windows updates may affect how File Explorer and its preview handlers work.
 
 ## Troubleshooting
 
-Turn on **Debug logging** in the mod settings, reproduce the problem, and
-check the Windhawk log for messages starting with `RBP:`. Turn it off after testing.
+If a supported file does not show a preview, first check whether the same file type can be previewed in a normal Explorer folder.
+
+To collect more details, enable **Debug logging** in the mod settings, reproduce the issue, and check the Windhawk log for messages starting with `RBP:`. Turn logging off again after testing.
+
+If you find a bug, [open an issue](https://github.com/luizbizzio/recycle-bin-file-preview/issues) and include your Windows version, the file type, and any relevant logs.
 
 ## Author and license
 
