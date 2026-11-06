@@ -1,5 +1,9 @@
 # Recycle Bin File Preview
 
+[![Windhawk users](https://windhawk-badges.luizbizzio.workers.dev/badges/recycle-bin-file-preview/users.svg?icon=windhawk&labelMode=short)](https://windhawk.net/mods/recycle-bin-file-preview)
+[![Windhawk rating](https://windhawk-badges.luizbizzio.workers.dev/badges/recycle-bin-file-preview/rating.svg?icon=windhawk&labelMode=short)](https://windhawk.net/mods/recycle-bin-file-preview)
+[![Mod version](https://windhawk-badges.luizbizzio.workers.dev/badges/recycle-bin-file-preview/version.svg?icon=windhawk)](https://windhawk.net/mods/recycle-bin-file-preview)
+
 Enable the native **Windows File Explorer Preview Pane (Alt + P)** for files
 in the Recycle Bin, without restoring them.
 
